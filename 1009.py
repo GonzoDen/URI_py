@@ -1,8 +1,7 @@
 name = input()
-hours = float(input())
-hour_salary = float(input())
+salary = float(input())
+sold = float(input())
 
-salary = hours * hour_salary
+salary = salary + sold * 0.15
 
-print(name)
-print("SALARY = U$ %.2f" % salary)
+print("TOTAL = R$ %.2f" % salary)
