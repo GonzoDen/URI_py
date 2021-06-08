@@ -10,5 +10,3 @@ result = maior(a, b)
 result_fin = maior(result, c)
 
 print("%d eh o maior" % result_fin)
-
-
