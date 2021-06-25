@@ -1,0 +1,11 @@
+line1 = input().split(" ")
+
+h1, h2 = line1
+
+if h1 >= h2:
+	result = 24 - int(h1)-int(h2)
+	print("O JOGO DUROU %d HORA(S)" % result)
+	pok = 24
+	print(pok)
+else:
+	print("O JOGO DUROU %d HORA(S)" % (int(h2)-int(h1)))
