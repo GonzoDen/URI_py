@@ -1,9 +1,8 @@
-line1 = input().split(" ")
+h1, h2 = list(map(int,input().split()))
 
-h1, h2 = line1
-
-if h1 <= h2:
-	result = 24 - (int(h1)-int(h2))
-	print("O JOGO DUROU %d HORA(S)" % result)
+if(h1 < h2):
+    result = h2 - h1
 else:
-	print("O JOGO DUROU %d HORA(S)" % (int(h2)-int(h1)))
+    result = h2 + 24 - h1
+
+print(f"O JOGO DUROU {result} HORA(S)")
