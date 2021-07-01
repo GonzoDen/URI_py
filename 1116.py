@@ -6,3 +6,5 @@ for i in range (1, n+1):
 	if (n2 != 0):
 		result = float(n1/n2)
 		print(result)
+	else:
+		print("divisao impossivel")
