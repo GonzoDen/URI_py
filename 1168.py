@@ -3,9 +3,9 @@ n = int(input())
 
 for i in range(n):
     leds = 0
-    num = int(input())
+    num = input()
 
-    for j in range(num):
+    for j in num:
         leds += nums[int(j)]
 
     print("%d leds" % int(leds))
