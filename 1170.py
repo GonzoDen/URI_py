@@ -7,3 +7,6 @@ for i in range(n):
 		num /=2
 		count += 1
 	print("%d dias" % count)
+
+	##or do
+	#print("{} dias".format(count))
